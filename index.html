@@ -630,11 +630,10 @@
       overflow: hidden;
       cursor: pointer;
     }
-    .proyecto-item:nth-child(1) { grid-column: 1 / 8; grid-row: 1; aspect-ratio: 16/9; }
-    .proyecto-item:nth-child(2) { grid-column: 8 / 13; grid-row: 1; aspect-ratio: 4/3; }
-    .proyecto-item:nth-child(3) { grid-column: 1 / 5; grid-row: 2; aspect-ratio: 4/3; }
-    .proyecto-item:nth-child(4) { grid-column: 5 / 9; grid-row: 2; aspect-ratio: 4/3; }
-    .proyecto-item:nth-child(5) { grid-column: 9 / 13; grid-row: 2; aspect-ratio: 4/3; }
+    .proyecto-item:nth-child(1) { grid-column: 1 / 7; grid-row: 1; aspect-ratio: 4/3; }
+    .proyecto-item:nth-child(2) { grid-column: 7 / 13; grid-row: 1; aspect-ratio: 4/3; }
+    .proyecto-item:nth-child(3) { grid-column: 1 / 7; grid-row: 2; aspect-ratio: 4/3; }
+    .proyecto-item:nth-child(4) { grid-column: 7 / 13; grid-row: 2; aspect-ratio: 4/3; }
     .proyecto-item img {
       width: 100%; height: 100%;
       object-fit: cover;
@@ -932,11 +931,10 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
       }
-      .proyecto-item:nth-child(1) { grid-column: 1 / 3; grid-row: 1; aspect-ratio: 16/9; }
-      .proyecto-item:nth-child(2) { grid-column: 1 / 2; grid-row: 2; aspect-ratio: 1; }
-      .proyecto-item:nth-child(3) { grid-column: 2 / 3; grid-row: 2; aspect-ratio: 1; }
-      .proyecto-item:nth-child(4) { grid-column: 1 / 2; grid-row: 3; aspect-ratio: 1; }
-      .proyecto-item:nth-child(5) { grid-column: 2 / 3; grid-row: 3; aspect-ratio: 1; }
+      .proyecto-item:nth-child(1) { grid-column: 1 / 2; grid-row: 1; aspect-ratio: 1; }
+      .proyecto-item:nth-child(2) { grid-column: 2 / 3; grid-row: 1; aspect-ratio: 1; }
+      .proyecto-item:nth-child(3) { grid-column: 1 / 2; grid-row: 2; aspect-ratio: 1; }
+      .proyecto-item:nth-child(4) { grid-column: 2 / 3; grid-row: 2; aspect-ratio: 1; }
     }
 
     @media (max-width: 640px) {
@@ -954,8 +952,7 @@
       .proyecto-item:nth-child(1),
       .proyecto-item:nth-child(2),
       .proyecto-item:nth-child(3),
-      .proyecto-item:nth-child(4),
-      .proyecto-item:nth-child(5) {
+      .proyecto-item:nth-child(4) {
         grid-column: 1; grid-row: auto; aspect-ratio: 4/3;
       }
     }
@@ -1195,7 +1192,7 @@
         <div class="socio-card reveal-left">
           <div class="socio-img">
             <img
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='1067' viewBox='0 0 800 1067'%3E%3Crect width='800' height='1067' fill='%231A1A1A'/%3E%3Ccircle cx='400' cy='360' r='110' fill='none' stroke='%23C9A96E' stroke-width='1'/%3E%3Ccircle cx='400' cy='340' r='70' fill='%23222'/%3E%3Cellipse cx='400' cy='510' rx='130' ry='80' fill='%23222'/%3E%3Ctext x='400' y='680' font-family='Georgia,serif' font-size='18' fill='%23C9A96E' text-anchor='middle' letter-spacing='4'%3EFOTO PRÓXIMAMENTE%3C/text%3E%3C/svg%3E"
               alt="Oscar Reggiori — Ingeniero Arquitecto"
               loading="lazy"
             />
@@ -1215,7 +1212,7 @@
         <div class="socio-card reveal-right">
           <div class="socio-img">
             <img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
+              src="imagenes/lilina.jpeg"
               alt="Liliana Fahrion — Arquitecta"
               loading="lazy"
             />
@@ -1254,10 +1251,10 @@
       <div class="proyectos-grid">
 
         <div class="proyecto-item reveal delay-1">
-          <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80" alt="Torre corporativa" loading="lazy" />
+          <img src="imagenes/proyecto1.jpeg" alt="Proyecto CAPCSA 1" loading="lazy" />
           <div class="proyecto-overlay">
-            <span class="proyecto-cat">Edificio Corporativo</span>
-            <h3 class="proyecto-title">Torre Centro Cívico</h3>
+            <span class="proyecto-cat">Obra de Alta Complejidad</span>
+            <h3 class="proyecto-title">Proyecto I</h3>
           </div>
           <div class="proyecto-arrow">
             <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l5 4-5 4" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1265,10 +1262,10 @@
         </div>
 
         <div class="proyecto-item reveal delay-2">
-          <img src="https://images.unsplash.com/photo-1538688423619-a81d3f23454b?w=900&q=80" alt="Hospital de alta complejidad" loading="lazy" />
+          <img src="imagenes/proyecto2.jpeg" alt="Proyecto CAPCSA 2" loading="lazy" />
           <div class="proyecto-overlay">
-            <span class="proyecto-cat">Obra Sanitaria</span>
-            <h3 class="proyecto-title">Hospital Regional Norte</h3>
+            <span class="proyecto-cat">Diseño Arquitectónico</span>
+            <h3 class="proyecto-title">Proyecto II</h3>
           </div>
           <div class="proyecto-arrow">
             <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l5 4-5 4" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1276,10 +1273,10 @@
         </div>
 
         <div class="proyecto-item reveal delay-3">
-          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=80" alt="Diseño de interiores de lujo" loading="lazy" />
+          <img src="imagenes/proyecto3.jpeg" alt="Proyecto CAPCSA 3" loading="lazy" />
           <div class="proyecto-overlay">
-            <span class="proyecto-cat">Interiorismo</span>
-            <h3 class="proyecto-title">Residencia Privada AR</h3>
+            <span class="proyecto-cat">Construcción &amp; Gestión</span>
+            <h3 class="proyecto-title">Proyecto III</h3>
           </div>
           <div class="proyecto-arrow">
             <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l5 4-5 4" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1287,21 +1284,10 @@
         </div>
 
         <div class="proyecto-item reveal delay-4">
-          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=80" alt="Obra en construcción" loading="lazy" />
+          <img src="imagenes/proyecto4.jpeg" alt="Proyecto CAPCSA 4" loading="lazy" />
           <div class="proyecto-overlay">
-            <span class="proyecto-cat">Gestión de Obra</span>
-            <h3 class="proyecto-title">Complejo Logístico Sur</h3>
-          </div>
-          <div class="proyecto-arrow">
-            <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l5 4-5 4" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
-        </div>
-
-        <div class="proyecto-item reveal delay-5">
-          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80" alt="Arquitectura contemporánea" loading="lazy" />
-          <div class="proyecto-overlay">
-            <span class="proyecto-cat">Diseño Arquitectónico</span>
-            <h3 class="proyecto-title">Pabellón Cultural LF</h3>
+            <span class="proyecto-cat">Ingeniería Estructural</span>
+            <h3 class="proyecto-title">Proyecto IV</h3>
           </div>
           <div class="proyecto-arrow">
             <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l5 4-5 4" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
